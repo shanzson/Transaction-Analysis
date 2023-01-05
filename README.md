@@ -34,4 +34,4 @@ v14, v15 = _chef.fullExit(address(varg0), v10, (block.number << 64) + ((block.ti
 
 - This is the point where the actual attack got triggered. Now when we look at _chef, we get the follwing address 
 ![](/images/image3.png)
-
+- On searching this address on [etherscan](https://etherscan.io/address/0xE51e9bFf39baA85bD74865254D647188e1672612#code), it turns out to be a proxy contract
