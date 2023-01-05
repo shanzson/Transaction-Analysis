@@ -8,7 +8,7 @@ Victim's address- 0xfad1cb78101cf717cf97663e681eb87291dfcbe2
 
 Description- The attacker drained the victim's account for 4207352.56 USDC.
 Image- Attacker created the contract
-![](/images/Attacker created the contract.png)
+![](/images/attack1.png)
 
 Image- Attacker's fund flows 
 Image- Attack visualized in bloxy.info
