@@ -22,3 +22,11 @@ The attacker drained the victim's account for 4207352.56 USDC.
 - [View trace](https://tx.eth.samczsun.com/ethereum/0xb4e17296635461d2ca5a26a9fa4aaeb24e073e0eb83a2fc6a207c1f97767a1b9)
 
 ## Technical analysis
+- According to the call trace, the attacker had first created a malicious contract and had called the following function
+![](/images/attack1.png)
+The attacker had called this function by passing the USDC contract address(here address(varg1)) and the victim's address(here address(varg2))
+- When we look inside this function, on line: 209 we find that the fullExit function is called from the _chef
+```
+v14, v15 = _chef.fullExit(address(varg0), v10, (block.number << 64) + ((block.timestamp << 32) + uint32(0xffffffff - (keccak256(v2) >> 224) + 1)), v10, address(varg1), msg.sender, MEM[MEM[64]]).gas(msg.gas);
+```
+![](/images/attack2.png)
