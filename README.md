@@ -36,3 +36,4 @@ v14, v15 = _chef.fullExit(address(varg0), v10, (block.number << 64) + ((block.ti
 ![](/images/image3.png)
 - On searching this address on [etherscan](https://etherscan.io/address/0xE51e9bFf39baA85bD74865254D647188e1672612#code), it turns out to be a proxy contract
 with the following [implementation](https://library.dedaub.com/contracts/Ethereum/0xb11Ce4677929f8B57B90f08A1319E4D31642b25b/decompiled?line=1)
+- On further analysis, it can be seen that it is likely that the victim might have approved the _chef contract for maximum number of USDC tokens while interacting with the _chef contract. The attacker then most likely exploited a bug in the chef contract, while tricking the _chef contract into transferring the USDC from the victim to the attacker instead.
