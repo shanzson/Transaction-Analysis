@@ -32,3 +32,5 @@ v14, v15 = _chef.fullExit(address(varg0), v10, (block.number << 64) + ((block.ti
 ```
 ![](/images/image2.png)
 - This is the point where the actual attack got triggered. Now when we look at _chef, we get the follwing address 
+![](/images/image3.png)
+
