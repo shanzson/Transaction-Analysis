@@ -17,7 +17,8 @@ The attacker drained the victim's account for 4207352.56 USDC.
 ## Attack visualized
 ![](/images/attack3.png)
 
-## Transaction viewer
-- https://tx.eth.samczsun.com/ethereum/0xb4e17296635461d2ca5a26a9fa4aaeb24e073e0eb83a2fc6a207c1f97767a1b9
+## Transaction Call Trace
+![](/images/trace.png)
+- [View trace](https://tx.eth.samczsun.com/ethereum/0xb4e17296635461d2ca5a26a9fa4aaeb24e073e0eb83a2fc6a207c1f97767a1b9)
 
 ## Technical analysis
