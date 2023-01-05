@@ -8,6 +8,8 @@ Victim's address- 0xfad1cb78101cf717cf97663e681eb87291dfcbe2
 
 Description- The attacker drained the victim's account for 4207352.56 USDC.
 Image- Attacker created the contract
+![](/images/Attacker created the contract.png)
+
 Image- Attacker's fund flows 
 Image- Attack visualized in bloxy.info
 Transaction analyzed- https://tx.eth.samczsun.com/ethereum/0xb4e17296635461d2ca5a26a9fa4aaeb24e073e0eb83a2fc6a207c1f97767a1b9
